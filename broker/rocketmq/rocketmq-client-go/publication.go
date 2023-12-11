@@ -5,7 +5,7 @@ import (
 
 	"github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type publication struct {

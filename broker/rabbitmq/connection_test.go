@@ -3,8 +3,8 @@ package rabbitmq
 import (
 	"testing"
 
+	"github.com/samsaralc/kratos-transport/broker"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 func TestNewRabbitMQConnURL(t *testing.T) {

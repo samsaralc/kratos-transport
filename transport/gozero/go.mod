@@ -1,11 +1,11 @@
-module github.com/tx7do/kratos-transport/transport/gozero
+module github.com/samsaralc/kratos-transport/transport/gozero
 
 go 1.19
 
 require (
 	github.com/go-kratos/kratos/v2 v2.7.1
 	github.com/stretchr/testify v1.8.4
-	github.com/tx7do/kratos-transport v1.1.1
+	github.com/samsaralc/kratos-transport v1.1.1
 	github.com/zeromicro/go-zero v1.6.0
 )
 
@@ -58,4 +58,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

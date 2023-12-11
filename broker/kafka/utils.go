@@ -3,7 +3,7 @@ package kafka
 import (
 	kafkaGo "github.com/segmentio/kafka-go"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 func kafkaHeaderToMap(h []kafkaGo.Header) broker.Headers {

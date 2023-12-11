@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/gomodule/redigo/redis"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 const (

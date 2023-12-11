@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/apache/rocketmq-client-go/v2"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type subscriber struct {

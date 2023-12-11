@@ -13,10 +13,10 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tx7do/kratos-transport/broker"
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/broker"
+	rocketmqOption "github.com/samsaralc/kratos-transport/broker/rocketmq/option"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
+	"github.com/samsaralc/kratos-transport/tracing"
 )
 
 const (

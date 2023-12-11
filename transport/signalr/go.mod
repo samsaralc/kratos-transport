@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/signalr
+module github.com/samsaralc/kratos-transport/transport/signalr
 
 go 1.19
 
@@ -21,4 +21,4 @@ require (
 	nhooyr.io/websocket v1.8.10 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

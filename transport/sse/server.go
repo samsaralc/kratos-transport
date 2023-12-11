@@ -13,7 +13,7 @@ import (
 	"github.com/go-kratos/kratos/v2/errors"
 	"github.com/go-kratos/kratos/v2/transport"
 	"github.com/gorilla/mux"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type Any interface{}

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type subscriber struct {

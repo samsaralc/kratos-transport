@@ -1,11 +1,11 @@
-module github.com/tx7do/kratos-transport/_example/server/mqtt
+module github.com/samsaralc/kratos-transport/_example/server/mqtt
 
 go 1.19
 
 require (
 	github.com/go-kratos/kratos/v2 v2.7.1
-	github.com/tx7do/kratos-transport v1.1.1
-	github.com/tx7do/kratos-transport/transport/mqtt v1.1.0
+	github.com/samsaralc/kratos-transport v1.1.1
+	github.com/samsaralc/kratos-transport/transport/mqtt v1.1.0
 )
 
 require (
@@ -19,7 +19,7 @@ require (
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.18.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.2 // indirect
-	github.com/tx7do/kratos-transport/broker/mqtt v1.2.1 // indirect
+	github.com/samsaralc/kratos-transport/broker/mqtt v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.19.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.19.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.19.0 // indirect
@@ -40,8 +40,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../../
+replace github.com/samsaralc/kratos-transport => ../../../
 
-replace github.com/tx7do/kratos-transport/transport/mqtt => ../../../transport/mqtt
+replace github.com/samsaralc/kratos-transport/transport/mqtt => ../../../transport/mqtt
 
-replace github.com/tx7do/kratos-transport/broker/mqtt => ../../../broker/mqtt
+replace github.com/samsaralc/kratos-transport/broker/mqtt => ../../../broker/mqtt

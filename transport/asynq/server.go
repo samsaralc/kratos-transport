@@ -12,8 +12,8 @@ import (
 
 	"github.com/hibiken/asynq"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/utils"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/utils"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"testing"
 
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
 )
 
 var testServer *Server

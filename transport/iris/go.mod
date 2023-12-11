@@ -1,14 +1,12 @@
-module github.com/tx7do/kratos-transport/transport/iris
+module github.com/samsaralc/kratos-transport/transport/iris
 
-go 1.21
-
-toolchain go1.21.3
+go 1.20
 
 require (
 	github.com/go-kratos/kratos/v2 v2.7.1
 	github.com/kataras/iris/v12 v12.2.7
 	github.com/stretchr/testify v1.8.4
-	github.com/tx7do/kratos-transport v1.1.1
+	github.com/samsaralc/kratos-transport v1.1.1
 )
 
 require (
@@ -81,4 +79,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

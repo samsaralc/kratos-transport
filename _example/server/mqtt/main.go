@@ -6,9 +6,9 @@ import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/kratos-transport/broker"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
-	"github.com/tx7do/kratos-transport/transport/mqtt"
+	"github.com/samsaralc/kratos-transport/broker"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
+	"github.com/samsaralc/kratos-transport/transport/mqtt"
 )
 
 const (

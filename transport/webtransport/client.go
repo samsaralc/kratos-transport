@@ -17,7 +17,7 @@ import (
 	"github.com/quic-go/quic-go/http3"
 	"github.com/quic-go/quic-go/quicvarint"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type ClientMessageHandler func(MessagePayload) error

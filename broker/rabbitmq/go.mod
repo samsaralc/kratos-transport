@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/broker/rabbitmq
+module github.com/samsaralc/kratos-transport/broker/rabbitmq
 
 go 1.19
 
@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.4.0
 	github.com/rabbitmq/amqp091-go v1.9.0
 	github.com/stretchr/testify v1.8.4
-	github.com/tx7do/kratos-transport v1.1.1
+	github.com/samsaralc/kratos-transport v1.1.1
 	go.opentelemetry.io/otel v1.19.0
 	go.opentelemetry.io/otel/trace v1.19.0
 )
@@ -39,6 +39,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
 retract v1.0.1

@@ -3,7 +3,7 @@ package rocketmqClientGo
 import (
 	"context"
 	"errors"
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	rocketmqOption "github.com/samsaralc/kratos-transport/broker/rocketmq/option"
 	"sync"
 
 	"github.com/apache/rocketmq-client-go/v2"
@@ -18,9 +18,9 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/tracing"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type rocketmqBroker struct {

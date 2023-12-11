@@ -8,9 +8,9 @@ import (
 	"syscall"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/mqtt"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker/mqtt"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
 )
 
 const (

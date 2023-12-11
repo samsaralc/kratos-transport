@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/RichardKnop/machinery/v2/tasks"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

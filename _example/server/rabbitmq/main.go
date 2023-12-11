@@ -5,11 +5,11 @@ import (
 
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/kratos-transport/broker"
-	rabbitmqBroker "github.com/tx7do/kratos-transport/broker/rabbitmq"
-	"github.com/tx7do/kratos-transport/transport/rabbitmq"
+	"github.com/samsaralc/kratos-transport/broker"
+	rabbitmqBroker "github.com/samsaralc/kratos-transport/broker/rabbitmq"
+	"github.com/samsaralc/kratos-transport/transport/rabbitmq"
 
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
 )
 
 const (

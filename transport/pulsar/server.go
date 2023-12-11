@@ -3,13 +3,13 @@ package pulsar
 import (
 	"context"
 	"fmt"
-	"github.com/tx7do/kratos-transport/utils"
+	"github.com/samsaralc/kratos-transport/utils"
 	"net/url"
 	"sync"
 
 	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/pulsar"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker/pulsar"
 )
 
 var (

@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"testing"
 
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
 	"github.com/stretchr/testify/assert"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/kafka"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker/kafka"
+	"github.com/samsaralc/kratos-transport/tracing"
 )
 
 const (

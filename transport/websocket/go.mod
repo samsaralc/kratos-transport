@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.4.0
 	github.com/gorilla/websocket v1.5.1
 	github.com/stretchr/testify v1.8.4
-	github.com/tx7do/kratos-transport v1.1.1
+	github.com/samsaralc/kratos-transport v1.1.1
 )
 
 require (
@@ -40,4 +40,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

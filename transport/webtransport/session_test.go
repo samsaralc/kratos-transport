@@ -7,7 +7,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tx7do/kratos-transport/transport/webtransport/mock"
+	"github.com/samsaralc/kratos-transport/transport/webtransport/mock"
 )
 
 //go:generate mockgen -package mock -destination mock/stream_creator_mock.go github.com/quic-go/quic-go/http3 StreamCreator

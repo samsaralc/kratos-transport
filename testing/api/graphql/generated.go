@@ -376,7 +376,7 @@ func (ec *executionContext) _Query_hygrothermograph(ctx context.Context, field g
 	}
 	res := resTmp.(*Hygrothermograph)
 	fc.Result = res
-	return ec.marshalNHygrothermograph2ᚖgithubᚗcomᚋtx7doᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx, field.Selections, res)
+	return ec.marshalNHygrothermograph2ᚖgithubᚗcomᚋsamsaralcᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_hygrothermograph(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2780,11 +2780,11 @@ func (ec *executionContext) marshalNFloat2float64(ctx context.Context, sel ast.S
 	return graphql.WrapContextMarshaler(ctx, res)
 }
 
-func (ec *executionContext) marshalNHygrothermograph2githubᚗcomᚋtx7doᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx context.Context, sel ast.SelectionSet, v Hygrothermograph) graphql.Marshaler {
+func (ec *executionContext) marshalNHygrothermograph2githubᚗcomᚋsamsaralcᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx context.Context, sel ast.SelectionSet, v Hygrothermograph) graphql.Marshaler {
 	return ec._Hygrothermograph(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHygrothermograph2ᚖgithubᚗcomᚋtx7doᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx context.Context, sel ast.SelectionSet, v *Hygrothermograph) graphql.Marshaler {
+func (ec *executionContext) marshalNHygrothermograph2ᚖgithubᚗcomᚋsamsaralcᚋkratosᚑtransportᚋtestingᚋapiᚋgraphqlᚐHygrothermograph(ctx context.Context, sel ast.SelectionSet, v *Hygrothermograph) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")

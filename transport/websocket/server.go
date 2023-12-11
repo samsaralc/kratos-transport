@@ -168,7 +168,7 @@ func (s *Server) marshalMessage(messageType MessageType, message MessagePayload)
 		var msg TextMessage
 		msg.Type = messageType
 		buf, err = broker.Marshal(s.codec, message)
-		msg.Body = string(buf)
+		msg.Body = buf
 		if err != nil {
 			return nil, err
 		}
@@ -278,7 +278,7 @@ func (s *Server) unmarshalMessage(buf []byte) (*HandlerData, MessagePayload, err
 			payload = msg.Body
 		}
 
-		if err := broker.Unmarshal(s.codec, []byte(msg.Body), &payload); err != nil {
+		if err := broker.Unmarshal(s.codec, msg.Body, &payload); err != nil {
 			LogErrorf("unmarshal message exception: %s", err)
 			return nil, nil, err
 		}

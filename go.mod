@@ -1,4 +1,4 @@
-module github.com/samsaralc/kratos-transport-
+module github.com/samsaralc/kratos-transport
 
 go 1.20
 

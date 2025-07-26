@@ -38,8 +38,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	kratosTransport "github.com/go-kratos/kratos/v2/transport"
 
-	"github.com/tx7do/kratos-transport/tracing"
-	"github.com/tx7do/kratos-transport/transport/keepalive"
+	"github.com/samsaralc/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/transport/keepalive"
 )
 
 var (

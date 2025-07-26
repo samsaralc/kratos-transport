@@ -17,10 +17,10 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/tracing"
 
-	"github.com/tx7do/kratos-transport/broker"
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	"github.com/samsaralc/kratos-transport/broker"
+	rocketmqOption "github.com/samsaralc/kratos-transport/broker/rocketmq/option"
 )
 
 type rocketmqBroker struct {

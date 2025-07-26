@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/websocket
+module github.com/samsaralc/kratos-transport/transport/websocket
 
 go 1.23.0
 
@@ -9,7 +9,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 )
 
 require (
@@ -42,4 +42,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

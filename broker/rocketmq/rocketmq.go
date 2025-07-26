@@ -1,13 +1,13 @@
 package rocketmq
 
 import (
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	rocketmqOption "github.com/samsaralc/kratos-transport/broker/rocketmq/option"
 
-	aliyunMQ "github.com/tx7do/kratos-transport/broker/rocketmq/aliyun"
-	rocketmqV2 "github.com/tx7do/kratos-transport/broker/rocketmq/rocketmq-client-go"
-	rocketmqV5 "github.com/tx7do/kratos-transport/broker/rocketmq/rocketmq-clients"
+	aliyunMQ "github.com/samsaralc/kratos-transport/broker/rocketmq/aliyun"
+	rocketmqV2 "github.com/samsaralc/kratos-transport/broker/rocketmq/rocketmq-client-go"
+	rocketmqV5 "github.com/samsaralc/kratos-transport/broker/rocketmq/rocketmq-clients"
 )
 
 func NewBroker(driverType rocketmqOption.DriverType, opts ...broker.Option) broker.Broker {

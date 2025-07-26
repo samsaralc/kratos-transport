@@ -15,11 +15,11 @@ import (
 
 	"github.com/go-kratos/kratos/v2/encoding"
 	kratosTransport "github.com/go-kratos/kratos/v2/transport"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 
 	"github.com/quic-go/quic-go/http3"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/samsaralc/kratos-transport/transport"
 )
 
 const (

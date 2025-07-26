@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/nsqio/go-nsq"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 ///

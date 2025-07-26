@@ -7,7 +7,7 @@ import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/kratos-transport/transport/websocket"
+	"github.com/samsaralc/kratos-transport/transport/websocket"
 )
 
 var testServer *websocket.Server

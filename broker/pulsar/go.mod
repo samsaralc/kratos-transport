@@ -1,17 +1,17 @@
-module github.com/tx7do/kratos-transport/broker/pulsar
+module github.com/samsaralc/kratos-transport/broker/pulsar
 
 go 1.24.0
 
 toolchain go1.24.3
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
 require (
 	github.com/apache/pulsar-client-go v0.15.1
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 	go.opentelemetry.io/otel v1.36.0
 	go.opentelemetry.io/otel/trace v1.36.0
 )

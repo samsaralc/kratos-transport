@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/samsaralc/kratos-transport/transport"
 )
 
 func generatePort() int {

@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/socketio
+module github.com/samsaralc/kratos-transport/transport/socketio
 
 go 1.23.0
 
@@ -9,7 +9,7 @@ require (
 	github.com/googollee/go-socket.io v1.7.0
 	github.com/gorilla/handlers v1.5.2
 	github.com/gorilla/mux v1.8.1
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 )
 
 require (
@@ -45,4 +45,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

@@ -6,7 +6,7 @@ import (
 
 	kafkaGo "github.com/segmentio/kafka-go"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type publication struct {

@@ -1,16 +1,16 @@
-module github.com/tx7do/kratos-transport/transport/hertz
+module github.com/samsaralc/kratos-transport/transport/hertz
 
 go 1.23.0
 
 toolchain go1.24.3
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
 require (
 	github.com/cloudwego/hertz v0.10.0
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 )
 
 require (

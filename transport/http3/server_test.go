@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	api "github.com/tx7do/kratos-transport/testing/api/protobuf"
+	api "github.com/samsaralc/kratos-transport/testing/api/protobuf"
 )
 
 func HygrothermographHandler(w http.ResponseWriter, r *http.Request) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/encoding"
 
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/tracing"
 )
 
 var (

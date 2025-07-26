@@ -243,7 +243,7 @@ thrift -r -gen go tutorial.thrift
 
 ## 开始在Kratos微服务框架下使用Thrift
 
-我封装了一个Thrift服务，可以在Kratos微服务框架下直接使用：<https://github.com/tx7do/kratos-transport/tree/main/transport/thrift>
+我封装了一个Thrift服务，可以在Kratos微服务框架下直接使用：<https://github.com/samsaralc/kratos-transport/tree/main/transport/thrift>
 。
 
 实例程序的目标是从服务器获取温湿度信息，然后将温湿度信息发送给客户端。示例代码可以在单元测试里面找到。
@@ -277,7 +277,7 @@ import (
   "fmt"
   "math/rand"
 
-  api "github.com/tx7do/kratos-transport/testing/api/thrift/gen-go/hygrothermograph"
+  api "github.com/samsaralc/kratos-transport/testing/api/thrift/gen-go/hygrothermograph"
 )
 
 type HygrothermographHandler struct {

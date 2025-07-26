@@ -4,7 +4,7 @@ import (
 	"errors"
 	stompV3 "github.com/go-stomp/stomp/v3"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type publication struct {

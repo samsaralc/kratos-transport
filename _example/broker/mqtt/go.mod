@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/_example/broker/mqtt
+module github.com/samsaralc/kratos-transport/_example/broker/mqtt
 
 go 1.23.0
 
@@ -6,8 +6,8 @@ toolchain go1.24.3
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
-	github.com/tx7do/kratos-transport v1.1.17
-	github.com/tx7do/kratos-transport/broker/mqtt v1.2.21
+	github.com/samsaralc/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport/broker/mqtt v1.2.21
 )
 
 require (
@@ -40,6 +40,6 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../../
+replace github.com/samsaralc/kratos-transport => ../../../
 
-replace github.com/tx7do/kratos-transport/broker/mqtt => ../../../broker/mqtt
+replace github.com/samsaralc/kratos-transport/broker/mqtt => ../../../broker/mqtt

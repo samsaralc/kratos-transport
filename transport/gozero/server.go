@@ -12,7 +12,7 @@ import (
 	"github.com/zeromicro/go-zero/core/service"
 	"github.com/zeromicro/go-zero/rest"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/samsaralc/kratos-transport/transport"
 )
 
 var (

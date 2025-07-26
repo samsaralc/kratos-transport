@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/transport/machinery
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/RichardKnop/logging v0.0.0-20190827224416-1a693bdd4fae
@@ -88,3 +88,5 @@ require (
 )
 
 replace github.com/samsaralc/kratos-transport => ../../
+
+replace github.com/samsaralc/kratos-transport/transport/keepalive => ../keepalive

@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/transport/trpc
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4

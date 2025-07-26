@@ -2,13 +2,13 @@ module github.com/samsaralc/kratos-transport/transport/fasthttp
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/fasthttp/router v1.5.4
 	github.com/go-kratos/kratos/v2 v2.8.4
-	github.com/stretchr/testify v1.10.0
 	github.com/samsaralc/kratos-transport v1.1.17
+	github.com/stretchr/testify v1.10.0
 	github.com/valyala/fasthttp v1.62.0
 )
 

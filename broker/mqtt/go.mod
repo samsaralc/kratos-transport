@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/broker/mqtt
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/eclipse/paho.mqtt.golang v1.5.0

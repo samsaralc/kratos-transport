@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/broker/pulsar
 
 go 1.24.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 replace github.com/samsaralc/kratos-transport => ../../
 

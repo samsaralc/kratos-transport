@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/transport/rocketmq
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
@@ -88,3 +88,5 @@ require (
 replace github.com/samsaralc/kratos-transport => ../../
 
 replace github.com/samsaralc/kratos-transport/broker/rocketmq => ../../broker/rocketmq
+
+replace github.com/samsaralc/kratos-transport/transport/keepalive => ../keepalive

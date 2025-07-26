@@ -2,7 +2,7 @@ module github.com/samsaralc/kratos-transport/transport/graphql
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.24.2
 
 require (
 	github.com/99designs/gqlgen v0.17.74

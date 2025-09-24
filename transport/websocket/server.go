@@ -13,8 +13,8 @@ import (
 
 	ws "github.com/gorilla/websocket"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/transport"
 )
 
 var (

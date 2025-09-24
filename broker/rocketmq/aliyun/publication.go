@@ -6,7 +6,7 @@ import (
 
 	aliyun "github.com/aliyunmq/mq-http-go-sdk"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type Publication struct {

@@ -15,8 +15,8 @@ import (
 	stompV3 "github.com/go-stomp/stomp/v3"
 	frameV3 "github.com/go-stomp/stomp/v3/frame"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/samsaralc/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/tracing"
 )
 
 const (

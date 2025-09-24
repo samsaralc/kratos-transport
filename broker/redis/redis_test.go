@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tx7do/kratos-transport/broker"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	"github.com/samsaralc/kratos-transport/broker"
+	api "github.com/samsaralc/kratos-transport/testing/api/manual"
 )
 
 const (

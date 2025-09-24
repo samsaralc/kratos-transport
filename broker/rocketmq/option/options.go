@@ -5,7 +5,7 @@ import (
 
 	rmqClient "github.com/apache/rocketmq-clients/golang/v5"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 ///

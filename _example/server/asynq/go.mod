@@ -1,18 +1,18 @@
-module github.com/tx7do/kratos-transport/_example/server/asynq
+module github.com/samsaralc/kratos-transport/_example/server/asynq
 
 go 1.23.0
 
 toolchain go1.24.1
 
 replace (
-	github.com/tx7do/kratos-transport => ../../../
-	github.com/tx7do/kratos-transport/transport/asynq => ../../../transport/asynq
+	github.com/samsaralc/kratos-transport => ../../../
+	github.com/samsaralc/kratos-transport/transport/asynq => ../../../transport/asynq
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/hibiken/asynq v0.25.1
-	github.com/tx7do/kratos-transport/transport/asynq v1.2.33
+	github.com/samsaralc/kratos-transport/transport/asynq v1.2.33
 )
 
 require (
@@ -27,9 +27,9 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/redis/go-redis/v9 v9.10.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
+	github.com/samsaralc/kratos-transport v1.1.17 // indirect
+	github.com/samsaralc/kratos-transport/transport/keepalive v1.0.6 // indirect
 	github.com/spf13/cast v1.9.2 // indirect
-	github.com/tx7do/kratos-transport v1.1.17 // indirect
-	github.com/tx7do/kratos-transport/transport/keepalive v1.0.6 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/otel v1.36.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.36.0 // indirect

@@ -1,15 +1,15 @@
-module github.com/tx7do/kratos-transport/transport/keepalive
+module github.com/samsaralc/kratos-transport/transport/keepalive
 
 go 1.23.0
 
 toolchain go1.24.3
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
+	github.com/samsaralc/kratos-transport v1.1.17
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
 	google.golang.org/grpc v1.73.0
 )
 

@@ -8,4 +8,4 @@ git tag broker/redis/v1.2.21 --force
 git tag broker/rocketmq/v1.2.21 --force
 git tag broker/stomp/v1.2.21 --force
 
-git push origin --tags
+git push -f origin --tags

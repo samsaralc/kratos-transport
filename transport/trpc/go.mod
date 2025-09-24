@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/trpc
+module github.com/samsaralc/kratos-transport/transport/trpc
 
 go 1.23.0
 
@@ -6,7 +6,7 @@ toolchain go1.24.3
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 	trpc.group/trpc-go/trpc-go v1.0.3
 )
 
@@ -63,4 +63,4 @@ require (
 	trpc.group/trpc/trpc-protocol/pb/go/trpc v1.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

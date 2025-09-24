@@ -14,7 +14,7 @@ import (
 	kHttp "github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/go-kratos/kratos/v2/transport/http/binding"
 
-	api "github.com/tx7do/kratos-transport/testing/api/protobuf"
+	api "github.com/samsaralc/kratos-transport/testing/api/protobuf"
 )
 
 func TestServer(t *testing.T) {

@@ -3,12 +3,12 @@ package rocketmq
 import (
 	"crypto/tls"
 
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	rocketmqOption "github.com/samsaralc/kratos-transport/broker/rocketmq/option"
 
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 )
 
 type ServerOption func(o *Server)

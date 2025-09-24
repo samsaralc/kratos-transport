@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/broker/redis
+module github.com/samsaralc/kratos-transport/broker/redis
 
 go 1.23.0
 
@@ -8,7 +8,7 @@ require (
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/gomodule/redigo v1.9.2
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 )
 
 require (
@@ -41,4 +41,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

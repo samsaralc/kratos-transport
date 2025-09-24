@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport
+module github.com/samsaralc/kratos-transport
 
 go 1.23.0
 
@@ -39,3 +39,5 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
 )
+
+replace github.com/samsaralc/kratos-transport => ./

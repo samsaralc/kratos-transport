@@ -2,7 +2,7 @@ package nats
 
 import (
 	natsGo "github.com/nats-io/nats.go"
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/samsaralc/kratos-transport/broker"
 	"time"
 )
 

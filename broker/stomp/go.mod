@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/broker/stomp
+module github.com/samsaralc/kratos-transport/broker/stomp
 
 go 1.23.0
 
@@ -8,7 +8,7 @@ require (
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/go-stomp/stomp/v3 v3.1.3
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport v1.1.17
 	go.opentelemetry.io/otel v1.36.0
 	go.opentelemetry.io/otel/trace v1.36.0
 )
@@ -41,4 +41,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../

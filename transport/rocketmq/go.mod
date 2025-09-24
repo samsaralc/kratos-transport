@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/rocketmq
+module github.com/samsaralc/kratos-transport/transport/rocketmq
 
 go 1.23.0
 
@@ -6,10 +6,10 @@ toolchain go1.24.3
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
+	github.com/samsaralc/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport/broker/rocketmq v1.2.21
+	github.com/samsaralc/kratos-transport/transport/keepalive v1.0.6
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
-	github.com/tx7do/kratos-transport/broker/rocketmq v1.2.21
-	github.com/tx7do/kratos-transport/transport/keepalive v1.0.6
 	go.opentelemetry.io/otel v1.36.0
 	go.opentelemetry.io/otel/trace v1.36.0
 )
@@ -85,6 +85,6 @@ require (
 	stathat.com/c/consistent v1.0.0 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
-replace github.com/tx7do/kratos-transport/broker/rocketmq => ../../broker/rocketmq
+replace github.com/samsaralc/kratos-transport/broker/rocketmq => ../../broker/rocketmq

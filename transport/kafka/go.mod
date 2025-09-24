@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/kafka
+module github.com/samsaralc/kratos-transport/transport/kafka
 
 go 1.23.0
 
@@ -6,11 +6,11 @@ toolchain go1.24.3
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
+	github.com/samsaralc/kratos-transport v1.1.17
+	github.com/samsaralc/kratos-transport/broker/kafka v1.2.21
+	github.com/samsaralc/kratos-transport/transport/keepalive v1.0.6
 	github.com/segmentio/kafka-go v0.4.48
 	github.com/stretchr/testify v1.10.0
-	github.com/tx7do/kratos-transport v1.1.17
-	github.com/tx7do/kratos-transport/broker/kafka v1.2.21
-	github.com/tx7do/kratos-transport/transport/keepalive v1.0.6
 	go.opentelemetry.io/otel v1.36.0
 	go.opentelemetry.io/otel/trace v1.36.0
 )
@@ -49,6 +49,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/samsaralc/kratos-transport => ../../
 
-replace github.com/tx7do/kratos-transport/broker/kafka => ../../broker/kafka
+replace github.com/samsaralc/kratos-transport/broker/kafka => ../../broker/kafka

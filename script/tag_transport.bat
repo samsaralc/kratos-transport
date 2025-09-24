@@ -27,4 +27,4 @@ git tag transport/trpc/v1.2.24 --force
 
 git tag transport/keepalive/v1.0.6 --force
 
-git push origin --tags
+git push -f origin --tags
